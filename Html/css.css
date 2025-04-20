@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+body{
+    background: black;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: "Sixtyfour Convergence", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "BLED" 0,
+            "SCAN" 0,
+            "XELA" 0,
+            "YELA" 0;
+    background-color: cadetblue;
+    text-align: center;
+}
+.primeiroh2{
+    background: greenyellow ;
+}
+p{
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #edf3ff;
+}
+
+#bg{
+/* background-image:url(bg/white.jpg ); */
+background-color: #edf3ff;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+transition: 4s;}
+/* background-blend-mode: luminosity; */
+
+.genero{
+padding-top: 40px;
+    width: 60%;
+    height: 70px;
+    display: flex;
+    margin-left: 0;
+    list-style: none;
+    justify-content: space-evenly;  
+    
+}
+
+
+
+.um{padding: 2px 5px 2px 5px;
+    cursor: pointer; 
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    border: 1px solid black; 
+    border-radius: 5px; 
+    font-weight: 500;  
+    background-color: #edf3ff;
+    transition: 320ms;
+}
+.um:hover{
+    border: 1px solid black;
+    transition: 220ms;
+    background: rgb(44, 42, 167);
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.h1{
+    padding-left: 60px;
+    font-size: large;
+    font-style: oblique;
+}
+h4{
+    
+    position: relative;
+    height: 1vh;
+    padding: 0.3em 0;
+    padding-top: 0.5em;
+    font-weight: 100;
+
+}
+#container{
+     width: 100vw;
+     height: 50vh;
+     line-height: 4;
+     background-color: #edf3ff;
+     display: inline;
+ 
+
+
+}
+.lista1{
+ color: rgb(44, 42, 167);
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 800;
+ margin-left: 3rem;
+ list-style: none;
+
+
+ 
+
+}
+.lista2{
+  color: rgb(44, 42, 167);
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 800;
+ margin-left: 3rem;
+ list-style: none;
+}
+.uns{
+ list-style: none;
+ color: rgb(44, 42, 167);
+ text-decoration: none;
+
+
+}
+span{
+    font-weight: 400;
+    font-style: italic
+}
+i{font-size: xx-large;}
+.js{
+    display: flex;
+
+
+}
+/* .js:hover{cursor: pointer;} */
+
+
+header{
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid #d9e3f8;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 63px;
+    /* box-shadow: 0 3px 60px 0px #a0bbf7; */
+}
+
+#fundo_geral{
+    width: 5vw;
+    color: beige;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   
+    
+   
+
+}
+
+.sort{
+    cursor: pointer;
+    
+
+}
+
+#txtBusca{
+    float:left;
+    background-color: #dde8ff;
+    padding-left:5px;
+    padding-right: 400px;
+    font-size:18px;
+    border-radius: 20px;
+    border: 5px;
+    height:32px;
+    width:50rem;
+    margin-top: 15px;
+    margin-right: 1rem;
+    color: aliceblue;
+  }
+  #Btns{
+
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 1.5rem;
+   
+    
+    align-items: center;
+  }
+
+
+.singIn{
+
+    background-color: rgb(44, 42, 167);
+ border: none;
+ 
+ border-radius: 5px;
+ color: #ffffff;
+ font-size: 18px;
+ padding: 3px 0px;
+ padding-left: 18px;
+ padding-right: 10px;
+ opacity: 0.7;
+ box-shadow: 0px 0px 5px #000;
+    
+ 
+background-repeat: no-repeat;
+background-position: 25px;
+background-position: end;
+ background-size: 25px ;
+
+ font-family: 'Barlow', sans-serif;
+
+    
+}
+.singIn:hover{
+    font-size: larger;
+    font-weight: 700;
+  
+
+    transition: 450ms;
+
+    font-weight: bolder;
+
+    font-family: 'Barlow', sans-serif;
+    text-decoration: wavy;
+    opacity: 1;
+}
+
+
+.login {
+    background-color: rgb(44, 42, 167);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 3px 15px;
+    padding-left: 50px;
+    border: none;
+    opacity: 0.7;
+    box-shadow: 0px 0px 5px #000;
+           
+    
+    
+   background-image: url(img/login.png);
+   background-repeat: no-repeat;
+   background-position: 15px;
+   background-position: end;
+    background-size: 20px ;
+   
+    font-family: 'Barlow', sans-serif;
+}
+
+.login:hover{
+    font-size: larger;
+    font-weight: 700;
+    background-image: url(img/login.png);
+
+    font-weight: bolder;
+  
+    font-family: 'Barlow', sans-serif;
+    text-decoration: wavy;
+    opacity: 1;
+}
+
+.navegacao{
+    justify-content: space-between;
+    display: flex;
+    height: 20rem;
+    
+}
+
+.logo{
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+    padding-left: 20px;
+
+
+
+}
+.caixa_logo{
+    width: 25%;
+    display: flex;
+
+}
+
+section{
+  
+    display: flex;
+    justify-content:space-between;
+    height: 80%;
+}
+
+#carouselExampleInterval{
+
+    
+    height: 18%;
+  
+    
+
+
+   
+}
+
+#musica{
+    width: 100vw;
+    height: 10vw;
+    padding-right: 1em;
+    padding-bottom: 1em;
+   
+    position: fixed;
+    bottom: -16px;
+    box-shadow: 0px 0px 10px #000;
+    background:transparent;
+}
+
+
+    

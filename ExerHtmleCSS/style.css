@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    background-image: url(img/blueAndRoser.jpg);
+    background-position: center;
+        background-size: cover;
+        height: 100vh;
+        transition: 4s;
+}
+body:hover{
+    transition: 10s;
+   background-clip: padding-box;
+
+}
+main{
+    
+    background-color: rgba(153, 157, 160, 0.744);
+    align-items: center;
+    position: fixed;
+    left: 35%;
+    top: 23%;
+    width: 24vw;
+    height: 40vh;
+    padding-top: 2em;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+.divs{
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+}
+input{
+    background-color: rgba(170, 93, 242, 0.672);
+}
+ h3{
+    color: blueviolet;
+    font-size: 20px;
+    text-align: left;
+    margin: 9px 4px;
+    font-weight: bold;
+    font-size: medium;
+  
+ }
+.barrinha{
+    margin-right: 100px;
+}
+.radio{
+    padding-bottom: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+.bnt{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top:5% ;
+    
+}
+button{
+   
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+   
+    padding-right: 10px;
+    opacity: 0.7;
+    box-shadow: 0px 0px 5px #000;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    font-size: larger;
+        font-weight: 700;
+    
+    
+        transition: 450ms;
+    
+        font-weight: bolder;
+    
+        font-family: 'Barlow', sans-serif;
+        text-decoration: wavy;
+        opacity: 1;
+    }
